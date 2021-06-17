@@ -58,9 +58,9 @@ li a {
   overflow-wrap: normal;
 }
 
-li a:hover {
-  background-color: #111111;
-}
+    li a:hover {
+        background-color: #CDCDCD;
+    }
 
 h3.filme {
   display: none;
@@ -252,6 +252,13 @@ button.btn {
     color: white;
     z-index: 99999;
   }
+  .carousel-control-prev-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    }
+
+ .carousel-control-next-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    }
   #menuToggle:checked ~ label.menu-icon i:nth-child(2) {
     display: block;
   }
